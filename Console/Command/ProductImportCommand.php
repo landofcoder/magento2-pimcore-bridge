@@ -1,14 +1,14 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Console\Command;
+namespace Lof\PimcoreIntegration\Console\Command;
 
-use Divante\PimcoreIntegration\Queue\Processor\ProductQueueProcessorFactory;
+use Lof\PimcoreIntegration\Queue\Processor\ProductQueueProcessorFactory;
 use Magento\Framework\App\State;
 use Magento\Framework\Registry;
 use Symfony\Component\Console\Command\Command;

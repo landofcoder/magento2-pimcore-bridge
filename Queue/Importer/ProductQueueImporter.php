@@ -1,22 +1,22 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Importer;
+namespace Lof\PimcoreIntegration\Queue\Importer;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\ProductQueueImporterInterface;
-use Divante\PimcoreIntegration\Api\Queue\ProductQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
-use Divante\PimcoreIntegration\Model\Queue\Product\ProductQueueRepositoryFactory;
-use Divante\PimcoreIntegration\Queue\Builder\QueueBuilderInterface;
-use Divante\PimcoreIntegration\Queue\QueueFactory;
-use Divante\PimcoreIntegration\Queue\QueueStatusInterface;
-use Divante\PimcoreIntegration\System\ConfigInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\ProductQueueImporterInterface;
+use Lof\PimcoreIntegration\Api\Queue\ProductQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Model\Queue\Product\ProductQueueRepositoryFactory;
+use Lof\PimcoreIntegration\Queue\Builder\QueueBuilderInterface;
+use Lof\PimcoreIntegration\Queue\QueueFactory;
+use Lof\PimcoreIntegration\Queue\QueueStatusInterface;
+use Lof\PimcoreIntegration\System\ConfigInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\DataObject;
 use Magento\Framework\Event\ManagerInterface;
@@ -85,7 +85,7 @@ class ProductQueueImporter extends AbstractImporter implements ProductQueueImpor
      *
      * @param int $productId
      *
-     * @throws \Divante\PimcoreIntegration\Exception\InvalidQueueTypeException
+     * @throws \Lof\PimcoreIntegration\Exception\InvalidQueueTypeException
      * @return string[]
      */
     public function delete(int $productId): array

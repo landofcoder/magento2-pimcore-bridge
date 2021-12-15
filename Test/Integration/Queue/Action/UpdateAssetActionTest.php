@@ -1,20 +1,20 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Integration\Queue\Action;
+namespace Lof\PimcoreIntegration\Test\Integration\Queue\Action;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
-use Divante\PimcoreIntegration\Api\RequestClientInterface;
-use Divante\PimcoreIntegration\Http\Request\RequestClient;
-use Divante\PimcoreIntegration\Model\Queue\Asset\AssetQueue;
-use Divante\PimcoreIntegration\Queue\Action\UpdateAssetAction;
-use Divante\PimcoreIntegration\Queue\Importer\AssetQueueImporter;
-use Divante\PimcoreIntegration\Test\FakeResponseGenerator;
+use Lof\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
+use Lof\PimcoreIntegration\Api\RequestClientInterface;
+use Lof\PimcoreIntegration\Http\Request\RequestClient;
+use Lof\PimcoreIntegration\Model\Queue\Asset\AssetQueue;
+use Lof\PimcoreIntegration\Queue\Action\UpdateAssetAction;
+use Lof\PimcoreIntegration\Queue\Importer\AssetQueueImporter;
+use Lof\PimcoreIntegration\Test\FakeResponseGenerator;
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\TestFramework\ObjectManager;
 use Zend\Http\Response;
@@ -101,10 +101,10 @@ class UpdateAssetActionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @throws \Divante\PimcoreIntegration\Exception\InvalidQueueTypeException
+     * @throws \Lof\PimcoreIntegration\Exception\InvalidQueueTypeException
      * @throws \Magento\Framework\Exception\LocalizedException
      *
-     * @magentoDataFixture ../../../../app/code/Divante/PimcoreIntegration/Test/Integration/_files/product_simple.php
+     * @magentoDataFixture ../../../../app/code/Lof/PimcoreIntegration/Test/Integration/_files/product_simple.php
      */
     public function testUpdatingAssetForProduct()
     {
@@ -143,12 +143,12 @@ class UpdateAssetActionTest extends \PHPUnit\Framework\TestCase
     /**
      * @param array $data
      *
-     * @throws \Divante\PimcoreIntegration\Exception\InvalidQueueTypeException
+     * @throws \Lof\PimcoreIntegration\Exception\InvalidQueueTypeException
      * @throws \Magento\Framework\Exception\LocalizedException
      * @throws \Magento\Framework\Exception\NoSuchEntityException
      * @dataProvider queuesDataProvider
      *
-     * @magentoDataFixture ../../../../app/code/Divante/PimcoreIntegration/Test/Integration/_files/product_simple.php
+     * @magentoDataFixture ../../../../app/code/Lof/PimcoreIntegration/Test/Integration/_files/product_simple.php
      */
     public function testCreatingAssetForProduct(array $data)
     {

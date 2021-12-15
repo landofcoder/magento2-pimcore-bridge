@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?><!--
 /**
- * @package Divante_PimcoreIntegration
+ * @package Lof_PimcoreIntegration
  * @author Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 -->
@@ -16,8 +16,8 @@
                  showInStore="1">
             <class>separator-top</class>
             <label>Basic Configuration</label>
-            <tab>pimcore_magento_bridge</tab>
-            <resource>Divante_PimcoreIntegration::configuration</resource>
+            <tab>landofcoder</tab>
+            <resource>Lof_PimcoreIntegration::configuration</resource>
             <group id="basic" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
                    showInStore="1">
                 <label>Basic Configuration</label>
@@ -29,12 +29,12 @@
                 <field id="logger_type" translate="label" type="select" sortOrder="20" showInDefault="1"
                        showInWebsite="1" showInStore="0">
                     <label>Logger handler</label>
-                    <source_model>Divante\PimcoreIntegration\Model\Config\Source\Logger\Type</source_model>
+                    <source_model>Lof\PimcoreIntegration\Model\Config\Source\Logger\Type</source_model>
                 </field>
                 <field id="queue_outdated" translate="label" type="select" sortOrder="30" showInDefault="1"
                        showInWebsite="1" showInStore="0">
                     <label>Outdated Queues</label>
-                    <source_model>Divante\PimcoreIntegration\Model\Config\Source\QueueOutdated</source_model>
+                    <source_model>Lof\PimcoreIntegration\Model\Config\Source\QueueOutdated</source_model>
                     <comment><![CDATA[Queues older than the selected value will be removed from a database]]></comment>
                 </field>
             </group>
@@ -43,7 +43,7 @@
             <class>separator-top</class>
             <label>Pimcore Integration</label>
             <tab>pimcore_magento_bridge</tab>
-            <resource>Divante_PimcoreIntegration::pimcore</resource>
+            <resource>Lof_PimcoreIntegration::pimcore</resource>
             <group id="integration" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
                    showInStore="0">
                 <label>Pimcore integration</label>
@@ -89,13 +89,13 @@
             <class>separator-top</class>
             <label>Cron Settings</label>
             <tab>pimcore_magento_bridge</tab>
-            <resource>Divante_PimcoreIntegration::pimcore</resource>
+            <resource>Lof_PimcoreIntegration::pimcore</resource>
             <group id="attribute_sets" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Removing Unused Attribute Sets</label>
                 <field id="frequency" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Frequency</label>
                     <source_model>Magento\Cron\Model\Config\Source\Frequency</source_model>
-                    <backend_model>Divante\PimcoreIntegration\System\Config\UnusedAttributeSetFrequency</backend_model>
+                    <backend_model>Lof\PimcoreIntegration\System\Config\UnusedAttributeSetFrequency</backend_model>
                 </field>
                 <field id="time" translate="label comment" sortOrder="2" type="time" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Start Time</label>
@@ -106,7 +106,7 @@
                 <field id="frequency" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Frequency</label>
                     <source_model>Magento\Cron\Model\Config\Source\Frequency</source_model>
-                    <backend_model>Divante\PimcoreIntegration\System\Config\UnusedAttributeOptionsFrequency</backend_model>
+                    <backend_model>Lof\PimcoreIntegration\System\Config\UnusedAttributeOptionsFrequency</backend_model>
                 </field>
                 <field id="time" translate="label comment" sortOrder="2" type="time" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Start Time</label>

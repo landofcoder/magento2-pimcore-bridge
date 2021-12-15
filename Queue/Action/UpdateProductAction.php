@@ -1,24 +1,24 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Action;
+namespace Lof\PimcoreIntegration\Queue\Action;
 
-use Divante\PimcoreIntegration\Api\ProductRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\QueueInterface;
-use Divante\PimcoreIntegration\Api\RequestClientInterface;
-use Divante\PimcoreIntegration\Exception\InvalidDataStructureException;
-use Divante\PimcoreIntegration\Exception\InvalidTypeException;
-use Divante\PimcoreIntegration\Http\Response\Transformator\ResponseTransformatorInterface;
-use Divante\PimcoreIntegration\Http\UrlBuilderInterface;
-use Divante\PimcoreIntegration\Queue\Action\Product\DataModifierInterface;
-use Divante\PimcoreIntegration\Queue\Action\TypeStrategy\TypeStrategyFactory;
-use Divante\PimcoreIntegration\Queue\ActionInterface;
+use Lof\PimcoreIntegration\Api\ProductRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\QueueInterface;
+use Lof\PimcoreIntegration\Api\RequestClientInterface;
+use Lof\PimcoreIntegration\Exception\InvalidDataStructureException;
+use Lof\PimcoreIntegration\Exception\InvalidTypeException;
+use Lof\PimcoreIntegration\Http\Response\Transformator\ResponseTransformatorInterface;
+use Lof\PimcoreIntegration\Http\UrlBuilderInterface;
+use Lof\PimcoreIntegration\Queue\Action\Product\DataModifierInterface;
+use Lof\PimcoreIntegration\Queue\Action\TypeStrategy\TypeStrategyFactory;
+use Lof\PimcoreIntegration\Queue\ActionInterface;
 use Magento\Catalog\Model\Product;
 use Magento\Catalog\Model\Product\Attribute\Source\Status;
 use Magento\Catalog\Model\ProductFactory;

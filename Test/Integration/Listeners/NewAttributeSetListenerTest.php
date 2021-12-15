@@ -1,15 +1,15 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Integration\Listeners;
+namespace Lof\PimcoreIntegration\Test\Integration\Listeners;
 
-use Divante\PimcoreIntegration\Api\AttributeSetRepositoryInterface;
-use Divante\PimcoreIntegration\Listeners\NewAttributeSetListener;
+use Lof\PimcoreIntegration\Api\AttributeSetRepositoryInterface;
+use Lof\PimcoreIntegration\Listeners\NewAttributeSetListener;
 use Magento\Framework\Event\Observer;
 use Magento\TestFramework\ObjectManager;
 
@@ -69,7 +69,7 @@ class NewAttributeSetListenerTest extends \PHPUnit\Framework\TestCase
      * @throws \Magento\Framework\Exception\LocalizedException
      * @throws \Magento\Framework\Exception\NoSuchEntityException
      *
-     * @expectedException \Divante\PimcoreIntegration\Exception\InvalidChecksumException
+     * @expectedException \Lof\PimcoreIntegration\Exception\InvalidChecksumException
      */
     public function testInvalidChecksumException()
     {

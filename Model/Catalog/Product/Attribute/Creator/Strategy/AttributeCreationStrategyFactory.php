@@ -1,12 +1,12 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Model\Catalog\Product\Attribute\Creator\Strategy;
+namespace Lof\PimcoreIntegration\Model\Catalog\Product\Attribute\Creator\Strategy;
 
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\ObjectManagerInterface;
@@ -19,7 +19,7 @@ class AttributeCreationStrategyFactory implements StrategyFactoryInterface
     /**
      * @var string
      */
-    public static $classNamespaceRoot = 'Divante\PimcoreIntegration\Model\Catalog\Product\Attribute\Creator\Strategy';
+    public static $classNamespaceRoot = 'Lof\PimcoreIntegration\Model\Catalog\Product\Attribute\Creator\Strategy';
 
     /**
      * @var ObjectManagerInterface

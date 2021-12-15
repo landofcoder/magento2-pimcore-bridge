@@ -1,18 +1,18 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Model\Queue\Product;
+namespace Lof\PimcoreIntegration\Model\Queue\Product;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\QueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\ProductQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Model\Queue\Product\ResourceModel\ProductQueue as ProductQueueResource;
-use Divante\PimcoreIntegration\Model\Queue\Product\ResourceModel\ProductQueue\CollectionFactory;
+use Lof\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\QueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\ProductQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Model\Queue\Product\ResourceModel\ProductQueue as ProductQueueResource;
+use Lof\PimcoreIntegration\Model\Queue\Product\ResourceModel\ProductQueue\CollectionFactory;
 use Magento\Framework\Api\Search\SearchResultFactory;
 use Magento\Framework\Api\Search\SearchResultInterface;
 use Magento\Framework\Api\SearchCriteria\CollectionProcessorInterface;

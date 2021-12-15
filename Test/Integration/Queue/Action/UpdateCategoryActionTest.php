@@ -1,19 +1,19 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Integration\Queue\Action;
+namespace Lof\PimcoreIntegration\Test\Integration\Queue\Action;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
-use Divante\PimcoreIntegration\Api\RequestClientInterface;
-use Divante\PimcoreIntegration\Http\Request\RequestClient;
-use Divante\PimcoreIntegration\Model\CategoryRepository;
-use Divante\PimcoreIntegration\Queue\Action\UpdateCategoryAction;
-use Divante\PimcoreIntegration\Test\FakeResponseGenerator;
+use Lof\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
+use Lof\PimcoreIntegration\Api\RequestClientInterface;
+use Lof\PimcoreIntegration\Http\Request\RequestClient;
+use Lof\PimcoreIntegration\Model\CategoryRepository;
+use Lof\PimcoreIntegration\Queue\Action\UpdateCategoryAction;
+use Lof\PimcoreIntegration\Test\FakeResponseGenerator;
 use Magento\TestFramework\ObjectManager;
 use Zend\Http\Response;
 
@@ -124,7 +124,7 @@ class UpdateCategoryActionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoDataFixture ../../../../app/code/Divante/PimcoreIntegration/Test/Integration/_files/category.php
+     * @magentoDataFixture ../../../../app/code/Lof/PimcoreIntegration/Test/Integration/_files/category.php
      */
     public function testUpdateExistingCategory()
     {

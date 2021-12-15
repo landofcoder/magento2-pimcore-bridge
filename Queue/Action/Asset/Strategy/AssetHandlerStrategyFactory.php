@@ -1,14 +1,14 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Action\Asset\Strategy;
+namespace Lof\PimcoreIntegration\Queue\Action\Asset\Strategy;
 
-use Divante\PimcoreIntegration\Exception\InvalidStrategyException;
+use Lof\PimcoreIntegration\Exception\InvalidStrategyException;
 use Magento\Framework\ObjectManagerInterface;
 
 /**

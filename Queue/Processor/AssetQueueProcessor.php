@@ -1,21 +1,21 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Processor;
+namespace Lof\PimcoreIntegration\Queue\Processor;
 
-use Divante\PimcoreIntegration\Api\Queue\AssetQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\QueueInterface;
-use Divante\PimcoreIntegration\Http\Notification\PimcoreNotificatorInterface;
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
-use Divante\PimcoreIntegration\Queue\Action\ActionFactory;
-use Divante\PimcoreIntegration\Queue\Action\ActionResultFactory;
-use Divante\PimcoreIntegration\System\ConfigInterface;
+use Lof\PimcoreIntegration\Api\Queue\AssetQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\QueueInterface;
+use Lof\PimcoreIntegration\Http\Notification\PimcoreNotificatorInterface;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Queue\Action\ActionFactory;
+use Lof\PimcoreIntegration\Queue\Action\ActionResultFactory;
+use Lof\PimcoreIntegration\System\ConfigInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\Api\SortOrderBuilder;
 use Magento\Framework\Event\ManagerInterface;

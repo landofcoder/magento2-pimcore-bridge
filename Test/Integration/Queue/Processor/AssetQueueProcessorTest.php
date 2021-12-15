@@ -1,17 +1,17 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Integration\Queue\Processor;
+namespace Lof\PimcoreIntegration\Test\Integration\Queue\Processor;
 
-use Divante\PimcoreIntegration\Api\CategoryRepositoryInterface;
-use Divante\PimcoreIntegration\Model\Queue\Asset\AssetQueue;
-use Divante\PimcoreIntegration\Queue\Action\Asset\PathResolver;
-use Divante\PimcoreIntegration\Queue\Processor\AssetQueueProcessor;
+use Lof\PimcoreIntegration\Api\CategoryRepositoryInterface;
+use Lof\PimcoreIntegration\Model\Queue\Asset\AssetQueue;
+use Lof\PimcoreIntegration\Queue\Action\Asset\PathResolver;
+use Lof\PimcoreIntegration\Queue\Processor\AssetQueueProcessor;
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Catalog\Model\ProductRepository;
 use Magento\TestFramework\ObjectManager;
@@ -46,7 +46,7 @@ class AssetQueueProcessorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoDataFixture ../../../../app/code/Divante/PimcoreIntegration/Test/Integration/_files/product_with_image.php
+     * @magentoDataFixture ../../../../app/code/Lof/PimcoreIntegration/Test/Integration/_files/product_with_image.php
      */
     public function testDeleteOfAssetForAProduct()
     {
@@ -87,7 +87,7 @@ class AssetQueueProcessorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoDataFixture ../../../../app/code/Divante/PimcoreIntegration/Test/Integration/_files/category_with_image.php
+     * @magentoDataFixture ../../../../app/code/Lof/PimcoreIntegration/Test/Integration/_files/category_with_image.php
      */
     public function testDeleteOfAssetForACategory()
     {

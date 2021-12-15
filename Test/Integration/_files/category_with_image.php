@@ -6,7 +6,7 @@
 require __DIR__ . '/category_image.php';
 require __DIR__ . '/category.php';
 
-/** @var \Divante\PimcoreIntegration\Api\CategoryRepositoryInterface $repo */
-$repo = $objectManager->create(\Divante\PimcoreIntegration\Api\CategoryRepositoryInterface::class);
+/** @var \Lof\PimcoreIntegration\Api\CategoryRepositoryInterface $repo */
+$repo = $objectManager->create(\Lof\PimcoreIntegration\Api\CategoryRepositoryInterface::class);
 $category = $repo->get(333);
 $category->setImage('117_pim.jpg')->save();

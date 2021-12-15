@@ -1,14 +1,14 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Unit\Model;
+namespace Lof\PimcoreIntegration\Test\Unit\Model;
 
-use Divante\PimcoreIntegration\Model\CategoryRepository;
+use Lof\PimcoreIntegration\Model\CategoryRepository;
 use Magento\Catalog\Model\Category;
 use Magento\Catalog\Model\ResourceModel\Category\Collection;
 use Magento\Catalog\Model\ResourceModel\Category\CollectionFactory;

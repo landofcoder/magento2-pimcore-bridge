@@ -1,16 +1,16 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Model\Queue\Category;
+namespace Lof\PimcoreIntegration\Model\Queue\Category;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
-use Divante\PimcoreIntegration\Model\AbstractQueue;
-use Divante\PimcoreIntegration\Model\Queue\Category\ResourceModel\CategoryQueue as CategoryQueueResource;
+use Lof\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
+use Lof\PimcoreIntegration\Model\AbstractQueue;
+use Lof\PimcoreIntegration\Model\Queue\Category\ResourceModel\CategoryQueue as CategoryQueueResource;
 
 /**
  * Class CategoryQueue

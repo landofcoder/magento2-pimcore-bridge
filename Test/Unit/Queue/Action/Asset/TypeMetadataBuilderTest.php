@@ -1,15 +1,15 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Unit\Queue\Action\Asset;
+namespace Lof\PimcoreIntegration\Test\Unit\Queue\Action\Asset;
 
-use Divante\PimcoreIntegration\Exception\InvalidAssetTypeException;
-use Divante\PimcoreIntegration\Queue\Action\Asset\TypeMetadataBuilder;
+use Lof\PimcoreIntegration\Exception\InvalidAssetTypeException;
+use Lof\PimcoreIntegration\Queue\Action\Asset\TypeMetadataBuilder;
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 
 /**
@@ -76,7 +76,7 @@ class TypeMetadataBuilderTest extends \PHPUnit\Framework\TestCase
     /**
      * @dataProvider invalidDataProvider
      *
-     * @expectedException \Divante\PimcoreIntegration\Exception\InvalidAssetMetadataException
+     * @expectedException \Lof\PimcoreIntegration\Exception\InvalidAssetMetadataException
      * @expectedExceptionMessage Neither entity type or asset type can be empty.
      *
      * @param string $entityType

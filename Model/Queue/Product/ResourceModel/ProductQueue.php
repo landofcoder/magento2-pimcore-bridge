@@ -1,14 +1,14 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Model\Queue\Product\ResourceModel;
+namespace Lof\PimcoreIntegration\Model\Queue\Product\ResourceModel;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
 /**

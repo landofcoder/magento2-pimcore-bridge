@@ -1,22 +1,22 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Action\Product;
+namespace Lof\PimcoreIntegration\Queue\Action\Product;
 
-use Divante\PimcoreIntegration\Api\Pimcore\PimcoreProductInterface;
-use Divante\PimcoreIntegration\Api\Queue\AssetQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Model\Queue\Asset\AssetQueueFactory;
-use Divante\PimcoreIntegration\Queue\Action\Asset\File;
-use Divante\PimcoreIntegration\Queue\Action\Asset\FileFactory;
-use Divante\PimcoreIntegration\Queue\Action\Asset\TypeMetadataBuilderFactory;
-use Divante\PimcoreIntegration\Queue\Action\Asset\TypeMetadataBuilderInterface;
-use Divante\PimcoreIntegration\Queue\Importer\AbstractImporter;
-use Divante\PimcoreIntegration\Queue\QueueStatusInterface;
+use Lof\PimcoreIntegration\Api\Pimcore\PimcoreProductInterface;
+use Lof\PimcoreIntegration\Api\Queue\AssetQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Model\Queue\Asset\AssetQueueFactory;
+use Lof\PimcoreIntegration\Queue\Action\Asset\File;
+use Lof\PimcoreIntegration\Queue\Action\Asset\FileFactory;
+use Lof\PimcoreIntegration\Queue\Action\Asset\TypeMetadataBuilderFactory;
+use Lof\PimcoreIntegration\Queue\Action\Asset\TypeMetadataBuilderInterface;
+use Lof\PimcoreIntegration\Queue\Importer\AbstractImporter;
+use Lof\PimcoreIntegration\Queue\QueueStatusInterface;
 use Magento\Catalog\Api\Data\ProductAttributeMediaGalleryEntryInterface;
 use Magento\Catalog\Model\Product;
 

@@ -1,17 +1,17 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Action\TypeStrategy;
+namespace Lof\PimcoreIntegration\Queue\Action\TypeStrategy;
 
-use Divante\PimcoreIntegration\Api\ProductRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\ProductQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Model\Queue\Product\ProductQueue;
-use Divante\PimcoreIntegration\Queue\QueueStatusInterface;
+use Lof\PimcoreIntegration\Api\ProductRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\ProductQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Model\Queue\Product\ProductQueue;
+use Lof\PimcoreIntegration\Queue\QueueStatusInterface;
 use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Catalog\Model\Product\Attribute\Source\Status;
 use Magento\Catalog\Model\Product\Type;

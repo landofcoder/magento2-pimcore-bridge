@@ -1,19 +1,19 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Unit\Http\Request;
+namespace Lof\PimcoreIntegration\Test\Unit\Http\Request;
 
-use Divante\PimcoreIntegration\Http\Request\AbstractRequest;
-use Divante\PimcoreIntegration\Http\Request\RequestClient;
-use Divante\PimcoreIntegration\Http\UrlBuilderInterface;
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
-use Divante\PimcoreIntegration\System\Config;
-use Divante\PimcoreIntegration\System\ConfigInterface;
+use Lof\PimcoreIntegration\Http\Request\AbstractRequest;
+use Lof\PimcoreIntegration\Http\Request\RequestClient;
+use Lof\PimcoreIntegration\Http\UrlBuilderInterface;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\System\Config;
+use Lof\PimcoreIntegration\System\ConfigInterface;
 use Magento\Framework\Event\ManagerInterface;
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 use Monolog\Logger;

@@ -1,17 +1,17 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Http\Notification;
+namespace Lof\PimcoreIntegration\Http\Notification;
 
-use Divante\PimcoreIntegration\Api\RequestClientInterface;
-use Divante\PimcoreIntegration\Http\Request\RequestClientFactory;
-use Divante\PimcoreIntegration\Http\UrlBuilderInterface;
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Api\RequestClientInterface;
+use Lof\PimcoreIntegration\Http\Request\RequestClientFactory;
+use Lof\PimcoreIntegration\Http\UrlBuilderInterface;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
 use Magento\Framework\Webapi\Rest\Request;
 use Monolog\Logger;
 

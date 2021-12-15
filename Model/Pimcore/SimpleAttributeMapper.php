@@ -1,14 +1,14 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Model\Pimcore;
+namespace Lof\PimcoreIntegration\Model\Pimcore;
 
-use Divante\PimcoreIntegration\Api\Pimcore\PimcoreAttributeMapperInterface;
+use Lof\PimcoreIntegration\Api\Pimcore\PimcoreAttributeMapperInterface;
 use Magento\Framework\Exception\LocalizedException;
 
 /**

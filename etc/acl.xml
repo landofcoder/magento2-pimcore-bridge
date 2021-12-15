@@ -1,8 +1,8 @@
 <?xml version="1.0"?><!--
 /**
- * @package Divante_PimcoreIntegration
+ * @package Lof_PimcoreIntegration
  * @author Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 -->
@@ -11,7 +11,7 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Divante_PimcoreIntegration::bridge" title="Pimcore Magento Bridge" translate="title" sortOrder="10"/>
+                <resource id="Lof_PimcoreIntegration::bridge" title="Pimcore Magento Bridge" translate="title" sortOrder="10"/>
             </resource>
         </resources>
     </acl>

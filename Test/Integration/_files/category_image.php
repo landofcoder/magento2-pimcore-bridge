@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-use Divante\PimcoreIntegration\Queue\Action\Asset\PathResolver;
+use Lof\PimcoreIntegration\Queue\Action\Asset\PathResolver;
 use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Framework\App\Filesystem\DirectoryList;
 

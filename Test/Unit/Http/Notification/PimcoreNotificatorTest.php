@@ -1,19 +1,19 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Unit\Http\Notification;
+namespace Lof\PimcoreIntegration\Test\Unit\Http\Notification;
 
-use Divante\PimcoreIntegration\Http\EndpointUrlBuilder;
-use Divante\PimcoreIntegration\Http\Notification\PimcoreNotificator;
-use Divante\PimcoreIntegration\Http\Notification\PimcoreNotificatorInterface;
-use Divante\PimcoreIntegration\Http\Request\RequestClient;
-use Divante\PimcoreIntegration\Http\UrlBuilderInterface;
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Http\EndpointUrlBuilder;
+use Lof\PimcoreIntegration\Http\Notification\PimcoreNotificator;
+use Lof\PimcoreIntegration\Http\Notification\PimcoreNotificatorInterface;
+use Lof\PimcoreIntegration\Http\Request\RequestClient;
+use Lof\PimcoreIntegration\Http\UrlBuilderInterface;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 use Magento\Framework\Webapi\Rest\Request;
 use Monolog\Logger;
@@ -63,7 +63,7 @@ class PimcoreNotificatorTest extends TestCase
     {
         $om = new ObjectManager($this);
 
-        $this->mockRequestClientFactory = $this->getMockBuilder('Divante\PimcoreIntegration\Http\Request\RequestClientFactory')
+        $this->mockRequestClientFactory = $this->getMockBuilder('Lof\PimcoreIntegration\Http\Request\RequestClientFactory')
             ->disableOriginalConstructor()
             ->setMethods(['create'])
             ->getMock();

@@ -1,13 +1,13 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-use Divante\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
-use Divante\PimcoreIntegration\Queue\Importer\CategoryQueueImporter;
+use Lof\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
+use Lof\PimcoreIntegration\Queue\Importer\CategoryQueueImporter;
 
 $om = \Magento\TestFramework\ObjectManager::getInstance();
 

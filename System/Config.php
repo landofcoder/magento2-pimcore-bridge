@@ -1,12 +1,12 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\System;
+namespace Lof\PimcoreIntegration\System;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\UrlInterface;

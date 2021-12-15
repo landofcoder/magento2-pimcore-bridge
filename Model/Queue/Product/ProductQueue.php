@@ -1,16 +1,16 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Model\Queue\Product;
+namespace Lof\PimcoreIntegration\Model\Queue\Product;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
-use Divante\PimcoreIntegration\Model\AbstractQueue;
-use Divante\PimcoreIntegration\Model\Queue\Product\ResourceModel\ProductQueue as ResourceProductQueue;
+use Lof\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
+use Lof\PimcoreIntegration\Model\AbstractQueue;
+use Lof\PimcoreIntegration\Model\Queue\Product\ResourceModel\ProductQueue as ResourceProductQueue;
 
 /**
  * Class ProductQueue

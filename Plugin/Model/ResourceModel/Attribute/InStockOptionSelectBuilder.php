@@ -1,12 +1,12 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2019 Divante Sp. z o.o.
+ * @copyright 2019 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Plugin\Model\ResourceModel\Attribute;
+namespace Lof\PimcoreIntegration\Plugin\Model\ResourceModel\Attribute;
 
 use Magento\CatalogInventory\Model\ResourceModel\Stock\Status;
 use Magento\CatalogInventory\Model\Stock\Status as StockStatus;

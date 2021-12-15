@@ -1,16 +1,16 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Unit\Http;
+namespace Lof\PimcoreIntegration\Test\Unit\Http;
 
-use Divante\PimcoreIntegration\Http\EndpointUrlBuilder;
-use Divante\PimcoreIntegration\Http\UrlBuilderInterface;
-use Divante\PimcoreIntegration\System\Config;
+use Lof\PimcoreIntegration\Http\EndpointUrlBuilder;
+use Lof\PimcoreIntegration\Http\UrlBuilderInterface;
+use Lof\PimcoreIntegration\System\Config;
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 use PHPUnit\Framework\TestCase;
 

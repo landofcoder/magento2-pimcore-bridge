@@ -1,17 +1,17 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Unit\Queue\Action\Asset;
+namespace Lof\PimcoreIntegration\Test\Unit\Queue\Action\Asset;
 
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\Checksum;
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\ChecksumInterface;
-use Divante\PimcoreIntegration\Queue\Action\Asset\ChecksumValidator;
-use Divante\PimcoreIntegration\Queue\Action\Asset\ChecksumValidatorInterface;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\Checksum;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\ChecksumInterface;
+use Lof\PimcoreIntegration\Queue\Action\Asset\ChecksumValidator;
+use Lof\PimcoreIntegration\Queue\Action\Asset\ChecksumValidatorInterface;
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 
 /**

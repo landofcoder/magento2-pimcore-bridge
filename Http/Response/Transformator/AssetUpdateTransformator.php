@@ -1,18 +1,18 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Http\Response\Transformator;
+namespace Lof\PimcoreIntegration\Http\Response\Transformator;
 
-use Divante\PimcoreIntegration\File\Mime;
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\AssetDataObjectFactory;
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\AssetInterface;
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\ChecksumFactory;
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\ChecksumInterface;
+use Lof\PimcoreIntegration\File\Mime;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\AssetDataObjectFactory;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\AssetInterface;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\ChecksumFactory;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\ChecksumInterface;
 use Magento\Framework\DataObject;
 use Magento\Framework\DataObjectFactory;
 use Zend\Http\Response;

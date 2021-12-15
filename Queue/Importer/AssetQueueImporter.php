@@ -1,23 +1,23 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Importer;
+namespace Lof\PimcoreIntegration\Queue\Importer;
 
-use Divante\PimcoreIntegration\Api\Queue\AssetQueueImporterInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
-use Divante\PimcoreIntegration\Exception\InvalidQueueTypeException;
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
-use Divante\PimcoreIntegration\Model\Queue\Asset\AssetQueueRepository;
-use Divante\PimcoreIntegration\Model\Queue\Asset\AssetQueueRepositoryFactory;
-use Divante\PimcoreIntegration\Queue\Builder\QueueBuilderInterface;
-use Divante\PimcoreIntegration\Queue\QueueFactory;
-use Divante\PimcoreIntegration\Queue\QueueStatusInterface;
-use Divante\PimcoreIntegration\System\ConfigInterface;
+use Lof\PimcoreIntegration\Api\Queue\AssetQueueImporterInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
+use Lof\PimcoreIntegration\Exception\InvalidQueueTypeException;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Model\Queue\Asset\AssetQueueRepository;
+use Lof\PimcoreIntegration\Model\Queue\Asset\AssetQueueRepositoryFactory;
+use Lof\PimcoreIntegration\Queue\Builder\QueueBuilderInterface;
+use Lof\PimcoreIntegration\Queue\QueueFactory;
+use Lof\PimcoreIntegration\Queue\QueueStatusInterface;
+use Lof\PimcoreIntegration\System\ConfigInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\DataObject;
 use Magento\Framework\Event\ManagerInterface;

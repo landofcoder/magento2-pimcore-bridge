@@ -1,19 +1,19 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Importer;
+namespace Lof\PimcoreIntegration\Queue\Importer;
 
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
-use Divante\PimcoreIntegration\Queue\Builder\QueueBuilderInterface;
-use Divante\PimcoreIntegration\Queue\QueueFactory;
-use Divante\PimcoreIntegration\System\Config;
-use Divante\PimcoreIntegration\System\ConfigInterface;
-use Divante\PimcoreIntegration\Webapi\Response;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Queue\Builder\QueueBuilderInterface;
+use Lof\PimcoreIntegration\Queue\QueueFactory;
+use Lof\PimcoreIntegration\System\Config;
+use Lof\PimcoreIntegration\System\ConfigInterface;
+use Lof\PimcoreIntegration\Webapi\Response;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\DataObject;
 use Magento\Framework\Event\ManagerInterface;

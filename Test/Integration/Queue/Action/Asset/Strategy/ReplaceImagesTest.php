@@ -1,17 +1,17 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Integration\Queue\Action\Asset\Strategy;
+namespace Lof\PimcoreIntegration\Test\Integration\Queue\Action\Asset\Strategy;
 
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\AssetInterface;
-use Divante\PimcoreIntegration\Queue\Action\Asset\PathResolver;
-use Divante\PimcoreIntegration\Queue\Action\Asset\Strategy\ReplaceImages;
-use Divante\PimcoreIntegration\Queue\Action\Asset\TypeMetadataExtractor;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\AssetInterface;
+use Lof\PimcoreIntegration\Queue\Action\Asset\PathResolver;
+use Lof\PimcoreIntegration\Queue\Action\Asset\Strategy\ReplaceImages;
+use Lof\PimcoreIntegration\Queue\Action\Asset\TypeMetadataExtractor;
 use Magento\Framework\DataObject;
 use Magento\TestFramework\ObjectManager;
 

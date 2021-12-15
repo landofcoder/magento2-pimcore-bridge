@@ -1,14 +1,14 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Model\Catalog\Product\Attribute;
+namespace Lof\PimcoreIntegration\Model\Catalog\Product\Attribute;
 
-use Divante\PimcoreIntegration\Api\AttributeSetRepositoryInterface;
+use Lof\PimcoreIntegration\Api\AttributeSetRepositoryInterface;
 use Magento\Catalog\Model\Product\Attribute\SetRepository as CoreSetRepository;
 use Magento\Eav\Api\Data\AttributeSetInterface;
 use Magento\Framework\Exception\NoSuchEntityException;

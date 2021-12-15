@@ -1,26 +1,26 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Action;
+namespace Lof\PimcoreIntegration\Queue\Action;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\QueueInterface;
-use Divante\PimcoreIntegration\Api\RequestClientInterface;
-use Divante\PimcoreIntegration\Exception\InvalidChecksumException;
-use Divante\PimcoreIntegration\Exception\InvalidQueueTypeException;
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\AssetInterface;
-use Divante\PimcoreIntegration\Http\Response\Transformator\ResponseTransformatorInterface;
-use Divante\PimcoreIntegration\Http\UrlBuilderInterface;
-use Divante\PimcoreIntegration\Queue\Action\Asset\ChecksumValidator;
-use Divante\PimcoreIntegration\Queue\Action\Asset\Strategy\AssetHandlerStrategyFactory;
-use Divante\PimcoreIntegration\Queue\Action\Asset\TypeMetadataExtractorFactory;
-use Divante\PimcoreIntegration\Queue\Action\Asset\TypeMetadataExtractorInterface;
-use Divante\PimcoreIntegration\Queue\ActionInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\QueueInterface;
+use Lof\PimcoreIntegration\Api\RequestClientInterface;
+use Lof\PimcoreIntegration\Exception\InvalidChecksumException;
+use Lof\PimcoreIntegration\Exception\InvalidQueueTypeException;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\AssetInterface;
+use Lof\PimcoreIntegration\Http\Response\Transformator\ResponseTransformatorInterface;
+use Lof\PimcoreIntegration\Http\UrlBuilderInterface;
+use Lof\PimcoreIntegration\Queue\Action\Asset\ChecksumValidator;
+use Lof\PimcoreIntegration\Queue\Action\Asset\Strategy\AssetHandlerStrategyFactory;
+use Lof\PimcoreIntegration\Queue\Action\Asset\TypeMetadataExtractorFactory;
+use Lof\PimcoreIntegration\Queue\Action\Asset\TypeMetadataExtractorInterface;
+use Lof\PimcoreIntegration\Queue\ActionInterface;
 use Magento\Catalog\Model\Category;
 use Magento\Catalog\Model\Product;
 use Magento\Framework\Exception\LocalizedException;

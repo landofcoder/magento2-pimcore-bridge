@@ -1,16 +1,16 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Listeners;
+namespace Lof\PimcoreIntegration\Listeners;
 
-use Divante\PimcoreIntegration\Api\ProductRepositoryInterface;
-use Divante\PimcoreIntegration\Exception\InvalidDataStructureException;
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\PropertyInterface;
+use Lof\PimcoreIntegration\Api\ProductRepositoryInterface;
+use Lof\PimcoreIntegration\Exception\InvalidDataStructureException;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\PropertyInterface;
 use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Catalog\Model\Product;
 use Magento\ConfigurableProduct\Api\LinkManagementInterface;

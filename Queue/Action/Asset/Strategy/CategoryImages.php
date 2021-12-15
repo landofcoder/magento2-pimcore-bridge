@@ -1,25 +1,25 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Action\Asset\Strategy;
+namespace Lof\PimcoreIntegration\Queue\Action\Asset\Strategy;
 
-use Divante\PimcoreIntegration\Api\CategoryRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\CategoryQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\AssetInterface;
-use Divante\PimcoreIntegration\Model\Queue\Category\CategoryQueue;
-use Divante\PimcoreIntegration\Model\Queue\Category\CategoryQueueFactory;
-use Divante\PimcoreIntegration\Queue\Action\ActionResultFactory;
-use Divante\PimcoreIntegration\Queue\Action\ActionResultInterface;
-use Divante\PimcoreIntegration\Queue\Action\Asset\PathResolver;
-use Divante\PimcoreIntegration\Queue\Action\Asset\TypeMetadataExtractorInterface;
-use Divante\PimcoreIntegration\Queue\Importer\AbstractImporter;
-use Divante\PimcoreIntegration\Queue\QueueStatusInterface;
+use Lof\PimcoreIntegration\Api\CategoryRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\CategoryQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\AssetInterface;
+use Lof\PimcoreIntegration\Model\Queue\Category\CategoryQueue;
+use Lof\PimcoreIntegration\Model\Queue\Category\CategoryQueueFactory;
+use Lof\PimcoreIntegration\Queue\Action\ActionResultFactory;
+use Lof\PimcoreIntegration\Queue\Action\ActionResultInterface;
+use Lof\PimcoreIntegration\Queue\Action\Asset\PathResolver;
+use Lof\PimcoreIntegration\Queue\Action\Asset\TypeMetadataExtractorInterface;
+use Lof\PimcoreIntegration\Queue\Importer\AbstractImporter;
+use Lof\PimcoreIntegration\Queue\QueueStatusInterface;
 use Magento\Catalog\Model\Category;
 use Magento\Framework\DataObject;
 use Magento\Framework\Exception\LocalizedException;

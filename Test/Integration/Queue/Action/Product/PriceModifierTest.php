@@ -1,16 +1,16 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Integration\Queue\Action\Product;
+namespace Lof\PimcoreIntegration\Test\Integration\Queue\Action\Product;
 
-use Divante\PimcoreIntegration\Model\Pimcore\PimcoreProduct;
-use Divante\PimcoreIntegration\Queue\Action\Product\DataModifierInterface;
-use Divante\PimcoreIntegration\Queue\Action\Product\PriceModifier;
+use Lof\PimcoreIntegration\Model\Pimcore\PimcoreProduct;
+use Lof\PimcoreIntegration\Queue\Action\Product\DataModifierInterface;
+use Lof\PimcoreIntegration\Queue\Action\Product\PriceModifier;
 use Magento\Catalog\Model\Product;
 use Magento\TestFramework\ObjectManager;
 

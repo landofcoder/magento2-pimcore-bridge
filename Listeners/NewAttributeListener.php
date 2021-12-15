@@ -1,18 +1,18 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Listeners;
+namespace Lof\PimcoreIntegration\Listeners;
 
-use Divante\PimcoreIntegration\Api\AttributeSetRepositoryInterface;
-use Divante\PimcoreIntegration\Listeners\Validator\AttributeCodeValidatorInterface;
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
-use Divante\PimcoreIntegration\Model\Catalog\Product\Attribute\Creator\Strategy\StrategyFactoryInterface;
-use Divante\PimcoreIntegration\Model\Catalog\Product\Attribute\LabelManager;
+use Lof\PimcoreIntegration\Api\AttributeSetRepositoryInterface;
+use Lof\PimcoreIntegration\Listeners\Validator\AttributeCodeValidatorInterface;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Model\Catalog\Product\Attribute\Creator\Strategy\StrategyFactoryInterface;
+use Lof\PimcoreIntegration\Model\Catalog\Product\Attribute\LabelManager;
 use Magento\Catalog\Model\Config;
 use Magento\Catalog\Model\ConfigFactory;
 use Magento\Catalog\Model\Product;

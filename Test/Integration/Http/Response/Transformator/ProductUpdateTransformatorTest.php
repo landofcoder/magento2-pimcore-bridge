@@ -1,15 +1,15 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Integration\Http\Response\Transformator;
+namespace Lof\PimcoreIntegration\Test\Integration\Http\Response\Transformator;
 
-use Divante\PimcoreIntegration\Http\Response\Transformator\ProductUpdateTransformator;
-use Divante\PimcoreIntegration\Test\FakeResponseGenerator;
+use Lof\PimcoreIntegration\Http\Response\Transformator\ProductUpdateTransformator;
+use Lof\PimcoreIntegration\Test\FakeResponseGenerator;
 use Magento\TestFramework\ObjectManager;
 use Zend\Http\Response;
 

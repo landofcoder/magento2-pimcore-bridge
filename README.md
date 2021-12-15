@@ -10,7 +10,7 @@ It allows for integration between Magento 2 and Pimcore, including:
 * creating categories, building them in a tree and exporting them easily to Magento.
 * building up your media gallery, assigning assets and publishing it.
 
-The second part of this module (Magento 2 - Pimcore Integration Module) is available at [DivanteLtd/pimcore-magento2-bridge](https://github.com/DivanteLtd/pimcore-magento2-bridge).
+The second part of this module (Magento 2 - Pimcore Integration Module) is available at [LofLtd/pimcore-magento2-bridge](https://github.com/LofLtd/pimcore-magento2-bridge).
 
 **Table of Contents**
 
@@ -43,9 +43,9 @@ This module is compatible with Magento 2.2.x and 2.3.x
 
 ## <a name="installation"></a>Installing/Getting started
 ###
-- copy files to `<root>/app/code/Divante/PimcoreIntegration`
+- copy files to `<root>/app/code/Lof/PimcoreIntegration`
 - `php bin/magento setup:upgrade`
-- `php bin/magento module:enable Divante_PimcoreIntegration`
+- `php bin/magento module:enable Lof_PimcoreIntegration`
 - configure the module in the Magento admin panel
 
 ## <a name="features"></a>Features
@@ -141,14 +141,14 @@ This module respects all Magento2 code quality rules and our own PHPCS and PHPMD
 
 ## <a name="authors"></a>About the Author
 
-This module has been created by Divante eCommerce Software House.
+This module has been created by Lof eCommerce Software House.
 
-![Divante-logo](http://divante.co/logo-HG.png "Divante")
+![Lof-logo](http://divante.co/logo-HG.png "Lof")
 
-Divante is an expert in providing top-notch eCommerce solutions and products for both B2B and B2C segments. Our core competencies are built around Magento, Pimcore and bespoke software projects (we love Symfony3, Node.js, Angular, React, Vue.js). We specialize in sophisticated integration projects trying to connect hardcore IT with good product design and UX.
+Lof is an expert in providing top-notch eCommerce solutions and products for both B2B and B2C segments. Our core competencies are built around Magento, Pimcore and bespoke software projects (we love Symfony3, Node.js, Angular, React, Vue.js). We specialize in sophisticated integration projects trying to connect hardcore IT with good product design and UX.
 
-We work with industry leaders, like T-Mobile, Continental, and 3M, who perceive technology as their key component to success. In Divante we trust in cooperation, that's why we contribute to open source products and create our own products like [Open Loyalty](http://www.openloyalty.io/ "Open Loyalty") and [VueStorefront](https://github.com/DivanteLtd/vue-storefront "Vue Storefront").
+We work with industry leaders, like T-Mobile, Continental, and 3M, who perceive technology as their key component to success. In Lof we trust in cooperation, that's why we contribute to open source products and create our own products like [Open Loyalty](http://www.openloyalty.io/ "Open Loyalty") and [VueStorefront](https://github.com/LofLtd/vue-storefront "Vue Storefront").
 
-Divante is part of the OEX Group which is listed on the Warsaw Stock Exchange. Our annual revenue has been growing at a minimum of about 30% year on year.
+Lof is part of the OEX Group which is listed on the Warsaw Stock Exchange. Our annual revenue has been growing at a minimum of about 30% year on year.
 
-For more information, please visit [Divante.co](https://divante.co/ "Divante.co").
+For more information, please visit [Lof.co](https://divante.co/ "Lof.co").

@@ -1,12 +1,12 @@
 1.0.5.4
 =============
 * GitHub PR:
-    * [#22](https://github.com/DivanteLtd/magento2-pimcore-bridge/pull/22) -- Api interfaces return fix for proper functioning of swagger
+    * [#22](https://github.com/LofLtd/magento2-pimcore-bridge/pull/22) -- Api interfaces return fix for proper functioning of swagger
 
 1.0.5.3
 =============
 * GitHub PR:
-    * [#21](https://github.com/DivanteLtd/magento2-pimcore-bridge/pull/21) -- Commands dependencies changes to factories
+    * [#21](https://github.com/LofLtd/magento2-pimcore-bridge/pull/21) -- Commands dependencies changes to factories
 
 1.0.5.2
 =============

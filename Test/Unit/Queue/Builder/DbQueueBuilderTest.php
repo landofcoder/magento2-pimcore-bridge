@@ -1,24 +1,24 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Unit\Queue\Builder;
+namespace Lof\PimcoreIntegration\Test\Unit\Queue\Builder;
 
-use Divante\PimcoreIntegration\Http\Notification\NotificationStatusInterface;
-use Divante\PimcoreIntegration\Http\Notification\PimcoreNotificator;
-use Divante\PimcoreIntegration\Http\Notification\PimcoreNotificatorInterface;
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
-use Divante\PimcoreIntegration\Logger\Stream\Logger;
-use Divante\PimcoreIntegration\Model\Queue\Category\CategoryQueue;
-use Divante\PimcoreIntegration\Model\Queue\Category\CategoryQueueRepository;
-use Divante\PimcoreIntegration\Model\Queue\Product\ProductQueue;
-use Divante\PimcoreIntegration\Model\Queue\Product\ProductQueueRepository;
-use Divante\PimcoreIntegration\Queue\Builder\DbQueueBuilder;
-use Divante\PimcoreIntegration\Queue\Builder\QueueBuilderInterface;
+use Lof\PimcoreIntegration\Http\Notification\NotificationStatusInterface;
+use Lof\PimcoreIntegration\Http\Notification\PimcoreNotificator;
+use Lof\PimcoreIntegration\Http\Notification\PimcoreNotificatorInterface;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Logger\Stream\Logger;
+use Lof\PimcoreIntegration\Model\Queue\Category\CategoryQueue;
+use Lof\PimcoreIntegration\Model\Queue\Category\CategoryQueueRepository;
+use Lof\PimcoreIntegration\Model\Queue\Product\ProductQueue;
+use Lof\PimcoreIntegration\Model\Queue\Product\ProductQueueRepository;
+use Lof\PimcoreIntegration\Queue\Builder\DbQueueBuilder;
+use Lof\PimcoreIntegration\Queue\Builder\QueueBuilderInterface;
 use Magento\Framework\DataObject;
 
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;

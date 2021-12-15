@@ -1,15 +1,15 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Integration\Model\Queue\Category;
+namespace Lof\PimcoreIntegration\Test\Integration\Model\Queue\Category;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
-use Divante\PimcoreIntegration\Model\Queue\Category\CategoryQueueRepository;
+use Lof\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
+use Lof\PimcoreIntegration\Model\Queue\Category\CategoryQueueRepository;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\Model\AbstractModel;
 use Magento\TestFramework\ObjectManager;
@@ -52,7 +52,7 @@ class CategoryQueueRepositoryTest extends TestCase
     }
 
     /**
-     * @magentoDataFixture ../../../../app/code/Divante/PimcoreIntegration/Test/Integration/_files/multiple_category_queue.php
+     * @magentoDataFixture ../../../../app/code/Lof/PimcoreIntegration/Test/Integration/_files/multiple_category_queue.php
      */
     public function testGetAllItemsWithEmptyCriteria()
     {
@@ -65,7 +65,7 @@ class CategoryQueueRepositoryTest extends TestCase
     }
 
     /**
-     * @magentoDataFixture ../../../../app/code/Divante/PimcoreIntegration/Test/Integration/_files/multiple_category_queue.php
+     * @magentoDataFixture ../../../../app/code/Lof/PimcoreIntegration/Test/Integration/_files/multiple_category_queue.php
      */
     public function testGetListWithSomeCriterias()
     {
@@ -89,7 +89,7 @@ class CategoryQueueRepositoryTest extends TestCase
     }
 
     /**
-     * @magentoDataFixture ../../../../app/code/Divante/PimcoreIntegration/Test/Integration/_files/multiple_category_queue.php
+     * @magentoDataFixture ../../../../app/code/Lof/PimcoreIntegration/Test/Integration/_files/multiple_category_queue.php
      */
     public function testGetByIdForExistingEntity()
     {

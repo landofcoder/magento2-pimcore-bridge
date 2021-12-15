@@ -1,16 +1,16 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Integration\Queue\Action;
+namespace Lof\PimcoreIntegration\Test\Integration\Queue\Action;
 
-use Divante\PimcoreIntegration\Api\CategoryRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
-use Divante\PimcoreIntegration\Queue\Action\DeleteCategoryAction;
+use Lof\PimcoreIntegration\Api\CategoryRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
+use Lof\PimcoreIntegration\Queue\Action\DeleteCategoryAction;
 use Magento\Framework\Registry;
 use Magento\TestFramework\ObjectManager;
 
@@ -36,7 +36,7 @@ class DeleteCategoryActionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoDataFixture ../../../../app/code/Divante/PimcoreIntegration/Test/Integration/_files/category.php
+     * @magentoDataFixture ../../../../app/code/Lof/PimcoreIntegration/Test/Integration/_files/category.php
      * @expectedException \Magento\Framework\Exception\NoSuchEntityException
      */
     public function testDeletingCategory()

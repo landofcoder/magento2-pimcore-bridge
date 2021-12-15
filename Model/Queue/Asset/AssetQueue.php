@@ -1,16 +1,16 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Model\Queue\Asset;
+namespace Lof\PimcoreIntegration\Model\Queue\Asset;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
-use Divante\PimcoreIntegration\Model\AbstractQueue;
-use Divante\PimcoreIntegration\Model\Queue\Asset\ResourceModel\AssetQueue as AssetQueueResource;
+use Lof\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
+use Lof\PimcoreIntegration\Model\AbstractQueue;
+use Lof\PimcoreIntegration\Model\Queue\Asset\ResourceModel\AssetQueue as AssetQueueResource;
 
 /**
  * Class AssetQueue

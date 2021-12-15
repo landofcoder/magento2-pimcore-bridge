@@ -1,17 +1,17 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Http\Response\Transformator;
+namespace Lof\PimcoreIntegration\Http\Response\Transformator;
 
-use Divante\PimcoreIntegration\Api\AttributeSetRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Pimcore\PimcoreProductInterface;
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\PropertyResolverInterface;
-use Divante\PimcoreIntegration\Model\Pimcore\PimcoreProductFactory;
+use Lof\PimcoreIntegration\Api\AttributeSetRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Pimcore\PimcoreProductInterface;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\PropertyResolverInterface;
+use Lof\PimcoreIntegration\Model\Pimcore\PimcoreProductFactory;
 use Magento\Framework\DataObject;
 use Magento\Framework\DataObjectFactory;
 use Magento\Framework\Exception\LocalizedException;

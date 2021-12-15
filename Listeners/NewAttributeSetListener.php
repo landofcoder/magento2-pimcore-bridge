@@ -1,19 +1,19 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Listeners;
+namespace Lof\PimcoreIntegration\Listeners;
 
-use Divante\PimcoreIntegration\Api\AttributeSetRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Data\AttributeSetInterface;
-use Divante\PimcoreIntegration\Api\Data\AttributeSetInterfaceFactory;
-use Divante\PimcoreIntegration\Exception\InvalidChecksumException;
-use Divante\PimcoreIntegration\Listeners\AttributeSet\NameResolverFactory;
-use Divante\PimcoreIntegration\Listeners\AttributeSet\NameResolverInterface;
+use Lof\PimcoreIntegration\Api\AttributeSetRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Data\AttributeSetInterface;
+use Lof\PimcoreIntegration\Api\Data\AttributeSetInterfaceFactory;
+use Lof\PimcoreIntegration\Exception\InvalidChecksumException;
+use Lof\PimcoreIntegration\Listeners\AttributeSet\NameResolverFactory;
+use Lof\PimcoreIntegration\Listeners\AttributeSet\NameResolverInterface;
 use Magento\Catalog\Api\AttributeSetManagementInterface;
 use Magento\Catalog\Api\Data\ProductAttributeInterface;
 use Magento\Catalog\Model\Product;

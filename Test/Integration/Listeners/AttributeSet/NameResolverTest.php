@@ -1,14 +1,14 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Integration\Listeners\AttributeSet;
+namespace Lof\PimcoreIntegration\Test\Integration\Listeners\AttributeSet;
 
-use Divante\PimcoreIntegration\Listeners\AttributeSet\NameResolver;
+use Lof\PimcoreIntegration\Listeners\AttributeSet\NameResolver;
 use Magento\TestFramework\ObjectManager;
 
 /**
@@ -33,7 +33,7 @@ class NameResolverTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoDataFixture ../../../../app/code/Divante/PimcoreIntegration/Test/Integration/_files/empty_attribute_set.php
+     * @magentoDataFixture ../../../../app/code/Lof/PimcoreIntegration/Test/Integration/_files/empty_attribute_set.php
      */
     public function testNameResolving()
     {

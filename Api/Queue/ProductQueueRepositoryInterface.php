@@ -1,15 +1,15 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Api\Queue;
+namespace Lof\PimcoreIntegration\Api\Queue;
 
-use Divante\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\QueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\QueueInterface;
 use Magento\Framework\Api\Search\SearchResultInterface;
 use Magento\Framework\Api\SearchCriteriaInterface;
 use Magento\Framework\Exception\CouldNotDeleteException;

@@ -1,23 +1,23 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Mateusz Bukowski <mbukowski@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Importer;
+namespace Lof\PimcoreIntegration\Queue\Importer;
 
-use Divante\PimcoreIntegration\Api\Queue\CategoryQueueImporterInterface;
-use Divante\PimcoreIntegration\Api\Queue\CategoryQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
-use Divante\PimcoreIntegration\Model\Queue\Category\CategoryQueueRepositoryFactory;
-use Divante\PimcoreIntegration\Queue\Builder\QueueBuilderInterface;
-use Divante\PimcoreIntegration\Queue\QueueFactory;
-use Divante\PimcoreIntegration\Queue\QueueStatusInterface;
-use Divante\PimcoreIntegration\System\ConfigInterface;
+use Lof\PimcoreIntegration\Api\Queue\CategoryQueueImporterInterface;
+use Lof\PimcoreIntegration\Api\Queue\CategoryQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Model\Queue\Category\CategoryQueueRepositoryFactory;
+use Lof\PimcoreIntegration\Queue\Builder\QueueBuilderInterface;
+use Lof\PimcoreIntegration\Queue\QueueFactory;
+use Lof\PimcoreIntegration\Queue\QueueStatusInterface;
+use Lof\PimcoreIntegration\System\ConfigInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\DataObject;
 use Magento\Framework\Event\ManagerInterface;
@@ -86,7 +86,7 @@ class CategoryQueueImporter extends AbstractImporter implements CategoryQueueImp
      *
      * @param int $categoryId
      *
-     * @throws \Divante\PimcoreIntegration\Exception\InvalidQueueTypeException
+     * @throws \Lof\PimcoreIntegration\Exception\InvalidQueueTypeException
      * @return string[]
      */
     public function delete(int $categoryId): array

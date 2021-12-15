@@ -1,19 +1,19 @@
 <?php
 /**
- * @package   Divante\PimcoreIntegration
+ * @package   Lof\PimcoreIntegration
  * @author    Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license   See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Model\Queue\Asset;
+namespace Lof\PimcoreIntegration\Model\Queue\Asset;
 
-use Divante\PimcoreIntegration\Api\Queue\AssetQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\AssetQueueSearchResultsInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\QueueInterface;
-use Divante\PimcoreIntegration\Model\Queue\Asset\ResourceModel\AssetQueue as AssetQueueResource;
-use Divante\PimcoreIntegration\Model\Queue\Asset\ResourceModel\AssetQueue\CollectionFactory;
+use Lof\PimcoreIntegration\Api\Queue\AssetQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\AssetQueueSearchResultsInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\QueueInterface;
+use Lof\PimcoreIntegration\Model\Queue\Asset\ResourceModel\AssetQueue as AssetQueueResource;
+use Lof\PimcoreIntegration\Model\Queue\Asset\ResourceModel\AssetQueue\CollectionFactory;
 use Magento\Framework\Api\Search\SearchResultFactory;
 use Magento\Framework\Api\SearchCriteria\CollectionProcessorInterface;
 use Magento\Framework\Api\SearchCriteriaInterface;

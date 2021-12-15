@@ -1,24 +1,24 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Builder;
+namespace Lof\PimcoreIntegration\Queue\Builder;
 
-use Divante\PimcoreIntegration\Api\Queue\AssetQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\CategoryQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\QueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\ProductQueueRepositoryInterface;
-use Divante\PimcoreIntegration\Exception\InvalidQueueTypeException;
-use Divante\PimcoreIntegration\Http\Notification\NotificationStatusInterface;
-use Divante\PimcoreIntegration\Http\Notification\PimcoreNotificatorInterface;
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Api\Queue\AssetQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\CategoryQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\CategoryQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\ProductQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\QueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\ProductQueueRepositoryInterface;
+use Lof\PimcoreIntegration\Exception\InvalidQueueTypeException;
+use Lof\PimcoreIntegration\Http\Notification\NotificationStatusInterface;
+use Lof\PimcoreIntegration\Http\Notification\PimcoreNotificatorInterface;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
 use Magento\Framework\DataObject;
 use Magento\Framework\Exception\LocalizedException;
 

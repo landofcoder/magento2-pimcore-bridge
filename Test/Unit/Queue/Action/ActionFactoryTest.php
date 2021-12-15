@@ -1,17 +1,17 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Test\Unit\Queue\Action;
+namespace Lof\PimcoreIntegration\Test\Unit\Queue\Action;
 
-use Divante\PimcoreIntegration\Queue\Action\ActionFactory;
-use Divante\PimcoreIntegration\Queue\Action\DeleteCategoryAction;
-use Divante\PimcoreIntegration\Queue\Action\UpdateCategoryAction;
-use Divante\PimcoreIntegration\Queue\ActionInterface;
+use Lof\PimcoreIntegration\Queue\Action\ActionFactory;
+use Lof\PimcoreIntegration\Queue\Action\DeleteCategoryAction;
+use Lof\PimcoreIntegration\Queue\Action\UpdateCategoryAction;
+use Lof\PimcoreIntegration\Queue\ActionInterface;
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
@@ -46,7 +46,7 @@ class ActionFactoryTest extends TestCase
     }
 
     /**
-     * @expectedException \Divante\PimcoreIntegration\Exception\InvalidTypeException
+     * @expectedException \Lof\PimcoreIntegration\Exception\InvalidTypeException
      */
     public function testCreateByTypeInvalidException()
     {
@@ -68,7 +68,7 @@ class ActionFactoryTest extends TestCase
      * @param $type
      * @param $action
      *
-     * @throws \Divante\PimcoreIntegration\Exception\InvalidTypeException
+     * @throws \Lof\PimcoreIntegration\Exception\InvalidTypeException
      * @dataProvider typeDataProvider
      */
     public function testCreateByType($type, $action)

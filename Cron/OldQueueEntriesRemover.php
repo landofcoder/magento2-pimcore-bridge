@@ -1,16 +1,16 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Cron;
+namespace Lof\PimcoreIntegration\Cron;
 
-use Divante\PimcoreIntegration\Logger\BridgeLoggerFactory;
-use Divante\PimcoreIntegration\Model\Config\Source\QueueOutdated;
-use Divante\PimcoreIntegration\System\ConfigInterface;
+use Lof\PimcoreIntegration\Logger\BridgeLoggerFactory;
+use Lof\PimcoreIntegration\Model\Config\Source\QueueOutdated;
+use Lof\PimcoreIntegration\System\ConfigInterface;
 use Magento\Framework\Api\SearchCriteriaBuilderFactory;
 use Magento\Framework\App\ResourceConnection;
 

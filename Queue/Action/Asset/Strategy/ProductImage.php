@@ -1,26 +1,26 @@
 <?php
 /**
- * @package  Divante\PimcoreIntegration
+ * @package  Lof\PimcoreIntegration
  * @author Bartosz Herba <bherba@divante.pl>
- * @copyright 2018 Divante Sp. z o.o.
+ * @copyright 2018 Lof Sp. z o.o.
  * @license See LICENSE_DIVANTE.txt for license details.
  */
 
-namespace Divante\PimcoreIntegration\Queue\Action\Asset\Strategy;
+namespace Lof\PimcoreIntegration\Queue\Action\Asset\Strategy;
 
-use Divante\PimcoreIntegration\Api\ProductRepositoryInterface;
-use Divante\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
-use Divante\PimcoreIntegration\Api\Queue\ProductQueueImporterInterface;
-use Divante\PimcoreIntegration\Http\Response\Transformator\Data\AssetInterface;
-use Divante\PimcoreIntegration\Model\Queue\Asset\AssetQueue;
-use Divante\PimcoreIntegration\Model\Queue\Product\ProductQueue;
-use Divante\PimcoreIntegration\Model\Queue\Product\ProductQueueFactory;
-use Divante\PimcoreIntegration\Queue\Action\ActionResultFactory;
-use Divante\PimcoreIntegration\Queue\Action\ActionResultInterface;
-use Divante\PimcoreIntegration\Queue\Action\Asset\PathResolver;
-use Divante\PimcoreIntegration\Queue\Action\Asset\TypeMetadataExtractorInterface;
-use Divante\PimcoreIntegration\Queue\Importer\AbstractImporter;
-use Divante\PimcoreIntegration\Queue\QueueStatusInterface;
+use Lof\PimcoreIntegration\Api\ProductRepositoryInterface;
+use Lof\PimcoreIntegration\Api\Queue\Data\AssetQueueInterface;
+use Lof\PimcoreIntegration\Api\Queue\ProductQueueImporterInterface;
+use Lof\PimcoreIntegration\Http\Response\Transformator\Data\AssetInterface;
+use Lof\PimcoreIntegration\Model\Queue\Asset\AssetQueue;
+use Lof\PimcoreIntegration\Model\Queue\Product\ProductQueue;
+use Lof\PimcoreIntegration\Model\Queue\Product\ProductQueueFactory;
+use Lof\PimcoreIntegration\Queue\Action\ActionResultFactory;
+use Lof\PimcoreIntegration\Queue\Action\ActionResultInterface;
+use Lof\PimcoreIntegration\Queue\Action\Asset\PathResolver;
+use Lof\PimcoreIntegration\Queue\Action\Asset\TypeMetadataExtractorInterface;
+use Lof\PimcoreIntegration\Queue\Importer\AbstractImporter;
+use Lof\PimcoreIntegration\Queue\QueueStatusInterface;
 use Magento\Catalog\Api\ProductAttributeMediaGalleryManagementInterface;
 use Magento\Catalog\Model\Product;
 use Magento\Catalog\Model\Product\Gallery\EntryFactory;
